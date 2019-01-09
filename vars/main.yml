@@ -1,0 +1,5 @@
+apache_listen_port: 80
+apache_vhosts:
+  - {servername: "example.com", documentroot: "/var/www/example_com"}
+  - {servername: "domain2.com", documentroot: "/var/www/domain2_com"}
+
